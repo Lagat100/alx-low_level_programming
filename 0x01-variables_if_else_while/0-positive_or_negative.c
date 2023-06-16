@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - entry point
  *
  * Return:always return 0
  *
-*/
-/* betty style doc for function main goes there */
+ */
 int main(void)
 {
 	int n;
