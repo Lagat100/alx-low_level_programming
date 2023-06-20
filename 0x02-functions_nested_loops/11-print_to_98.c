@@ -1,8 +1,11 @@
 #include "main.h"
 #include "stdio.h"
 /**
- * void print_to_98 - main function
+ * print_to_98 - Prints all numbers from n to 98.
+ * @n: The starting number.
  *
+ * Description: This function prints all numbers from the given
+ * starting number n to 98, inclusive, separated by commas.
  */
 void print_to_98(int n)
 {
