@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - resets the output value to 98 
- *
+ * @n - pointer value
  * Return: Always 0.
  */
 void reset_to_98(int *n)
