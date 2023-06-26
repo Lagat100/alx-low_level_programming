@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - resets the output value to 98 
- * @n - pointer value
- * Return: Always 0.
+ * reset_to_98 - resets pointer value to 98
+ * n - pointer value
+ *
  */
 void reset_to_98(int *n)
 {
