@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - gives the power of a number raised to a number
- * @x: input number to be used
- * @y: number to be raised to
- * return: result of the power
- *
+ * _pow_recursion - function gives the power of int
+ * @x: integer to power
+ * @y: power number
+ * Return: integer value
  */
 int _pow_recursion(int x, int y)
 {
