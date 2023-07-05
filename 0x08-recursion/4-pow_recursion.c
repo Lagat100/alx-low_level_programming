@@ -5,7 +5,7 @@
  * _pow_recursion - gives the power of a number raised to a number
  * @x: input number to be used
  * @y: number to be raised to
- * return: returns value of pow_recursion or -1
+ * return: result of the power
  *
  */
 
