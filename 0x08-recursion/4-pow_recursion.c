@@ -5,7 +5,8 @@
  * _pow_recursion - gives the power of a number raised to a number
  * @x: input number to be used
  * @y: number to be raised to
- * return: returns value or -1
+ * return: returns value of pow_recursion or -1
+ *
  */
 
 int _pow_recursion(int x, int y)
