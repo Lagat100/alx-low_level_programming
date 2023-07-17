@@ -6,10 +6,17 @@
  *
  * Return: Always 0.
  */
-struct dog
+int main()
 {
-	char* = name
-	float = age
-	char* = owner
-};
-		
+	struct dog myDog;
+	
+	myDog.name = "Buddy";
+	myDog.age = 3.5;
+	myDog.owner = "Lagat";
+
+	printf("Name: %s\n", myDog.name);
+	printf("Age: %.1f\n", myDog.age);
+	printf("Owner: %s\n", myDog.owner);
+
+	return 0;
+}	
