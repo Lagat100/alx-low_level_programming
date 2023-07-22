@@ -1,4 +1,4 @@
-0x0E. C - Structures, typedef
+		0x0E. C - Structures, typedef
 
 The structure in C is a user-defined data type that can be used to group items of possibly different types into a single type.
 
