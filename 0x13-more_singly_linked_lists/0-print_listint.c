@@ -4,24 +4,18 @@
 #include "lists.h"
 
 /**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
+ * print_listint - prints the list of elements
+ * @head: double pointer
  *
  * Return: the number of nodes
  * Description: singly linked list node structure
- * 
+ *
  */
-typedef struct listint_s
-{
-	int n;
-	struct listint_s *next;
-} listint_t;
 
-size_t print_listint(const struct listint_t* head)
+size_t print_listint(const struct listint_t *head)
 {
 	size_t count = 0;
-	const struct listint_t* current = head;
+	const struct listint_t *current = head;
 
 	while (current != NULL)
 	{
@@ -31,6 +25,6 @@ size_t print_listint(const struct listint_t* head)
 	}
 
 	printf("NULL\n");
-	
-	return count;
+
+	return (count);
 }
