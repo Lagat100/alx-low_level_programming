@@ -2,25 +2,21 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-
 /**
- * listint_len - lists the length of nodes in a list
- * @head: double pointer
- * Return: number of elements
- * Description: singly linked list node structure
+ * listint_len - returns the number of elements in a linked lists
+ * @h: linked list of type listint_t to traverse
  *
+ * Return: number of nodes
  */
-
-size_t listint_len(const struct listint_t *head)
+size_t listint_len(const listint_t *h)
 {
-	size_t count = 0;
-	const struct listint_t *first = head;
+	size_t num = 0;
 
-	while (first != NULL)
+	while (h)
 	{
-		count++;
-		first = first->next;
+		num++;
+		h = h->next;
 	}
 
-	return (count);
+	return (num);
 }
