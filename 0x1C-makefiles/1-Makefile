@@ -1,2 +1,5 @@
-all: main.c school.c 
-		gcc main.c school.c -o school
+C = gcc
+SRC = main.c school.c
+
+all: $(SRC)
+		$(CC) $(SRC) -o school
