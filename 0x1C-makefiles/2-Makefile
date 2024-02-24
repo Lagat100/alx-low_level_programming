@@ -1,7 +1,11 @@
-CC = gcc
-SRC = main.c school.c
-OBJ = $(SRC:.c=.o) 
-	NAME = school
-
-all: $(OBJ)
-		$(CC) $(OBJ) -o $(NAME)
+ler to be used.
+CC=gcc
+# The .c files
+# SRC=main.c school.c
+# # The .o files
+# OBJ=$(SRC:.c=.o)
+# # Name of the executable
+# NAME=school
+#
+# all: $(OBJ)
+# 	$(CC) $(OBJ) -o $(NAME)
